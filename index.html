@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
+	<link href="https://fonts.googleapis.com/css?family=Work+Sans:400,700" rel="stylesheet">
+	<title>Lyft</title>
+</head>
+<body>
+	<div class="container-fluid" id="splash">
+		<div class="row">
+			<div class="col-xs-12">
+				<!-- img background en css-->
+			</div>
+		</div>
+	</div>
+
+	<div class="container" id="section1">
+			<div class="row">
+				<div class="col-xs-offset-4 col-xs-4 col-xs-offset-4">
+					<!-- img background en css-->
+					<img class="logowhite" src="assets/img/logo-white.png">
+				</div>
+				<div class="col-xs-12">
+					<img class="lyftlyfe" src="assets/img/lyftlyfe.png">
+				</div>
+
+				<br>
+				<div class="row text-center">
+					<div class="col-xs-6 btn-group-lg">
+						<button type="button" class="btn btn-default btn1">LOG IN</button>	
+					</div>
+					<div class="col-xs-6 btn-group-lg">
+						<button type="button" class="btn btn-default btn2" data-toggle="modal" data-target="#btnSingUp">SING UP</button>	
+					</div>					
+				</div>
+			</div>
+<!-- Modal Sing Up-->
+	<div class="modal fade" id="btnSingUp" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	    	<button type="button" class="reverse" data-dismiss="modal" aria-label="Close">
+	          <span aria-hidden="true">
+	          <p class="rowreverse">&laquo;</p>
+	          </span>
+	      </button>
+	      <div class="modal-header text-center">	      
+	        <h3 class="modal-title">Sing Up</h3>
+	        <h4> Join now for free ride credit </h4>
+	      </div>
+	      <div class="row">
+	      <div class="col-xs-6 modal-body">
+	        <select class="form-control" id="panoramas" name="panoramas" onChange="viewFiltre(this.value);">
+						<option type="button" value="paises" disabled selected="">Elige tu país</option>
+						<option type="button" value="mexico">🏴󠁭󠁸󠁤󠁵󠁲󠁿 Mexico</option>
+						<option type="button" value="ecuador">🏴󠁭󠁸󠁤󠁵󠁲󠁿 Ecuador</option>
+						<option type="button" value="peru">🏴󠁭󠁸󠁤󠁵󠁲󠁿 Peru</option>
+						<option type="button" value="estadosunidos">🏴󠁭󠁸󠁤󠁵󠁲󠁿 Estados Unidos</option>
+						<option type="button" value="estadosunidos">🏴󠁭󠁸󠁤󠁵󠁲󠁿 Chile</option>
+	        </select>
+	      </div>
+				<div class="col-xs-6 modal-body">
+				  <input type="text" class="form-control" placeholder="&#9742; Telephone" aria-label="Telephone">
+				</div>
+	      </div>
+			<div class="row text-center">
+				<div class="col-xs-12">
+					<h4>We'll send a text to verify your phone</h4>	
+				</div>
+			</div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-primary">next</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+	</div> <!-- fin container fluid-->
+
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="assets/js/app.js"></script>
+</body>
+</html>

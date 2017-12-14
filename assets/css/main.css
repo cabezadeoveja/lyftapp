@@ -1,0 +1,85 @@
+body, html{
+	margin: 0;
+	padding: 0;
+  	height: 100vh;
+}
+
+.row{
+	margin: 0;
+}
+
+#splash{
+    background-image: url(../img/lyft01.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    z-index: 2;
+}
+
+#section1{
+	background-image: url(../img/lyftafter.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-position: 50% 50%;
+    z-index: 1;
+}
+
+.logowhite{
+	height: 5em;
+	margin-top: 2em;
+}
+
+.lyftlyfe{
+	height: 35vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin-top: 20vh;
+}
+
+.btn1, .btn2{
+	background-color: transparent;
+	color:#FFFFFF;
+	border: 0.1em solid #FFFFFF;
+	border-radius: 1em;
+	margin-top: 18vh;
+	width: 21vh;
+}
+
+.modal-header{
+	padding: 0;
+}
+
+h3.modal-title{
+	color: #FA5882;
+}
+
+.reverse{
+	background-color: transparent;
+	border: none;
+}
+
+.rowreverse{
+	font-size: 3em;
+	font-weight: 700;
+	padding: 0.5em 0 0 0.5em;
+	margin: 0;
+	color: #FA5882;
+}
+
+.modal-footer{
+	text-align: center;
+}
+
+.btn-primary{
+	padding: 6px 70px;
+	background-color: #FA5882;
+	border: solid 1px #FA5882;
+}
+
+.input-group{
+	padding: 15px 0;
+}
+
